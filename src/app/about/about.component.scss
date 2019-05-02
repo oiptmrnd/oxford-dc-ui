@@ -1,0 +1,78 @@
+.my-content{
+   min-height: 80vh;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,600,700');
+
+
+
+#about{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding:0px;
+
+}
+
+.section-header .section-title {
+    font-size: 30px;
+    color: #111;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-header .section-divider {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #1dc8cd;
+    background: #ED7203;
+    /* background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%); */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#about .section-description-about {
+    font-size: 20px;
+    margin-bottom: 10px !important;
+    padding: 20px 20px;
+    border-radius: 24px;
+    text-align: justify;
+}
+
+.section-bg {
+    background: #eff5f5;
+}
+
+#more-features {
+    padding: 60px 0 60px 0;
+     font-family: 'Barlow Condensed', sans-serif;
+}
+
+#more-features .box {
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    background: #fff;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+
+#more-features p {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+#more-features .icon {
+    float: left;
+
+}
+
+#more-features .icon i {
+
+    color:  #ed7207 ;
+    font-size: 80px;
+    transition: 0.5s;
+    line-height: 0;
+}
+

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import 'themes';
+
+// framework component styles which will use your new theme
+@import '~@nebular/theme/styles/globals';
+
+// install the framework
+@include nb-install() {
+  @include nb-theme-global();
+};
+
+nb-layout-column {
+padding:0 !important;
+}
+
+
+
+

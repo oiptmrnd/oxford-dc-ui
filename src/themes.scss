@@ -1,0 +1,15 @@
+@import "~@nebular/theme/styles/theming";
+@import "~@nebular/theme/styles/themes/default";
+
+$nb-themes: nb-register-theme(
+  (
+    font-main: unquote('"Rubik", sans-serif'),
+    //NBLAYOUT
+
+
+    //NBACTIONSMENU
+      actions-fg: #a4abb3
+  ),
+  default,
+  default
+); // let's leave it as default

@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+#logo-1 {
+  display: block;
+
+ }
+#logo-2 { display: none; }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#logo-1 { display: none; }
+#logo-2 { display: block; }
+
+
+}
+
+@media only screen and (max-width: 479px) {
+#logo-1 { display: none; }
+#logo-2 { display: block; }
+
+
+}
+
+#logo-2{
+  height:80px;
+  width:200px;
+  padding-top: 0px;
+  position: relative;
+
+}
+
+
+
